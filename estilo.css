@@ -129,7 +129,7 @@ header{
     font-weight: 200;
     padding: 10px;
     text-align: justify;
-    padding: 70px 85px 70px 100px;
+    padding: 70px 100px 70px 100px;
     padding-bottom:90px ;
 }
 
@@ -184,6 +184,7 @@ footer .nome{
 .textoImpacto{
     font-weight:300 ;
     font-size:37px ;
+    pad
 }
 
 .impacto h2{
