@@ -1,0 +1,198 @@
+@font-face {
+    font-family: "lexend";
+    src: url(font/Lexend-VariableFont_wght.ttf);
+}
+
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image:url(img/fundo.png) ;
+    background-size: cover;
+    height: 550px;
+    
+}
+.titulo{
+    font-family: "lexend";
+    font-size: 100px;
+    font-weight: 420;
+}
+.subtitulo{
+    font-family: "lexend";
+    font-size: 30px;
+} 
+body {
+    background-color:#598C38 ;
+}
+
+.imagem{
+    height: 380px;
+    width: 420px;;
+}
+.divisao{
+    background-color: #f4f3f3;
+    width: 420px;
+    border-radius: 10px;
+    margin: 10px;
+
+
+}
+ .display{
+    display: flex;
+    justify-content: center;
+  
+
+
+    
+ }
+
+.nome{ color: #F4F3F3;
+    font-family: "lexend";
+    font-size: 65px;
+    font-weight: 365;
+}
+
+.texto{
+    font-family: "lexend";
+    font-size: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+.sobre{
+    background-color: #f4f3f3;
+    padding: 70px 100px 90px 100px;
+}
+
+.sobre .nome {
+    color:#000000
+}
+
+
+.redes{
+    color: #F4F3F3;
+    font-family: "lexend";
+    font-size: 35px;
+    padding: 10px 10px 5px 0px;
+    text-align: justify;
+}
+
+.divSobre{
+    font-family: "lexend";
+    font-size: 25px;
+    font-weight:300 ;
+
+}
+
+h3 {
+    color: #598C38;
+    font-size: 30px;
+    font-weight:450 ;
+
+}
+
+section,header {
+    padding:0px 150px;
+}
+ footer{
+    padding: 60px 100px 75px;
+ }
+
+.processo{
+    padding: 50px 100px;
+    padding-bottom:50px ;
+}
+
+header{
+    padding: 180px 190px 0px 100px;
+}
+
+.redes{
+    font-weight: 300;
+}
+
+.container{
+    display:flex;
+        flex-direction: row;
+        justify-content:flex-start ;
+        flex-wrap:wrap;
+        align-items: center;
+}
+
+.impacto{
+    background-color:#476B30;
+    color: #F4F3F3;
+    font-family: "lexend";
+    font-size: 25px;
+    font-weight: 200;
+    padding: 10px;
+    text-align: justify;
+    padding: 70px 85px 70px 100px;
+    padding-bottom:90px ;
+}
+
+h2{
+    font-size: 60px;
+    font-weight:450 ;
+   
+}
+
+.impacto .imagem {
+   margin: 80px 30px 30px 0px;
+   width: 350px;
+   height: 200px;
+   border-radius: 10px;
+}
+
+.processo .display{
+    padding: 50px 100px;
+}
+
+
+.impacto {
+    font-weight: 300;
+}
+
+.processo .texto{
+    margin: 20px;
+}
+
+.subtitulo{
+    padding: 0px 200px 0px 4px;
+}
+
+footer .nome{
+    padding: 0px 0px 20px;
+}
+
+.divSobre h3{
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.textoSobre{
+    font-weight:330 ;
+    font-size:37px ;
+    padding-bottom: 30px;
+}
+
+
+.textoImpacto{
+    font-weight:300 ;
+    font-size:37px ;
+}
+
+.impacto h2{
+font-weight: 400;
+    font-size: 60px;
+
+}
+
+.container h2{
+    width: 700px;
+    font-size: 80px;
+}
